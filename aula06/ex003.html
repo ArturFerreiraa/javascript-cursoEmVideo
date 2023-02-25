@@ -28,9 +28,11 @@
         dicta similique consequuntur.</p>
 
     <script>
-        var nome = window.prompt('Qual é o seu nome?');
+        var numero1 = Number.parseFloat(prompt('Digite um número: '));
+        var numero2 = Number.parseFloat(prompt('Digite outro número: '));
+        var soma = numero1 + numero2;
 
-        alert('É um grande prazer te conhecer, ' + nome + '!');
+        alert(`A soma entre ${numero1} e ${numero2} é igual a ${soma}`);
     </script>
 </body>
 
