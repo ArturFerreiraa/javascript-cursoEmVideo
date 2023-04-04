@@ -28,6 +28,7 @@ switch (diaDaSemana) {
         break
     case 5:
         console.log('Sexta');
+        break
     case 6:
         console.log('Sábado');
         break
